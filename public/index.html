@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <title></title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!-- <script src="%REACT_APP_DOMAIN%/api/js/eshiminJS-1.0.0.js"></script>
+  <script src="%REACT_APP_DOMAIN%/smy-resource/js/umeng-1.1.1.js"></script>
+
+  <% if (process.env.NODE_ENV === 'test') { %>
+  <script src="https://lib.baomitu.com/vConsole/3.2.0/vconsole.min.js"></script>
+  <script>
+    var vConsole = new VConsole();
+    window.addEventListener('error', function handleListenerError(eventErr) {
+      console.log(eventErr);
+    }, true);
+  </script>
+  <% } %> -->
+
+  <!-- <script>
+    (function () {
+      // 友盟埋点初始化
+      // console.log('%= REACT_APP_ENV %' !== 'development');
+      if ('%REACT_APP_ENV%' !== 'development') {
+        var appKey = '%REACT_APP_DCA_APP_KEY%';
+        if (navigator.userAgent.toLowerCase().indexOf('tfsmy') > -1) {
+          eshimin.getDeviceId({
+            onResponse(deviceInfo) {
+              deviceInfo = JSON.parse(deviceInfo);
+              eshimin.getUserInfo({
+                onResponse: function (userInfo) {
+                  userInfo = JSON.parse(userInfo);
+                  Trinity.init({
+                    id: appKey,
+                    userName: userInfo.userName,
+                    deviceId: deviceInfo.deviceId
+                  });
+                }
+              })
+            }
+          });
+        } else {
+          Trinity.init({
+            id: appKey
+          });
+        }
+      }
+    })();
+  </script> -->
+</body>
+</html>

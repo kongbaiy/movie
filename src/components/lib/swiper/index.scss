@@ -1,0 +1,13 @@
+.swiperContainer {
+    overflow: hidden;
+    .swiper {
+        display: flex;
+        width: 100%;
+        font-size: 0;
+        white-space: nowrap;
+        vertical-align: baseline;
+        .swiperItem {
+            flex: 1 0 auto;
+        }
+    }
+}

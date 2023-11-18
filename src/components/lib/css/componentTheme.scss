@@ -1,0 +1,14 @@
+$buttonPrimary: #3f45fe;
+$buttonInfo: #00c852;
+$buttonWarning: #ff986a;
+$buttonDanger: #f44335;
+
+$buttonPrimary__active: rgba($color: $buttonPrimary, $alpha: 0.6);
+$buttonInfo__active: rgba($color: $buttonInfo, $alpha: 0.6);
+$buttonWarning__active: rgba($color: $buttonWarning, $alpha: 0.6);
+$buttonDanger__active: rgba($color: $buttonDanger, $alpha: 0.6);
+
+$buttonPrimary__dsibled: rgba($color: $buttonPrimary, $alpha: 0.3);
+$buttonInfo__dsibled: rgba($color: $buttonInfo, $alpha: 0.3);
+$buttonWarning__dsibled: rgba($color: $buttonWarning, $alpha: 0.3);
+$buttonDanger__dsibled: rgba($color: $buttonDanger, $alpha: 0.3);

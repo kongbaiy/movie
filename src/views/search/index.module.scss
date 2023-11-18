@@ -1,0 +1,31 @@
+.list {
+    padding: 0 $basePadding;
+    .listItem {
+        display: flex;
+        margin-top: 10px;
+        .listItemImg {
+            width: 120px;
+            height: 160px;
+            background-color: #ddd;
+        }
+        .listItemInfo {
+            margin-left: 10px;
+            .listItemTitle {
+                font-size: 18px;
+                line-height: 24px;
+            }
+            .listItemDate {
+                font-size: 14px;
+                line-height: 20px;
+            }
+            .listItemPerformer {
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+    }
+}
+
+.searchKey {
+    color: orange;
+}

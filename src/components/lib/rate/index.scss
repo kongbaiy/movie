@@ -1,0 +1,72 @@
+/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+    font-family: "rate";
+    src: url("../../../assets/iconfont/rate.ttf") format("woff2"),
+        url("../../../assets/iconfont/rate.woff2") format("woff"),
+        url("../../../assets/iconfont/rate.woff") format("truetype");
+}
+
+@font-face {
+    font-family: "rate_active";
+    src: url("../../../assets/iconfont/rate_active.ttf") format("woff2"),
+        url("../../../assets/iconfont/rate_active.woff2") format("woff"),
+        url("../../../assets/iconfont/rate_active.woff") format("truetype");
+}
+
+.rateContainer {
+    display: flex;
+    align-items: center;
+    margin: 4px 0;
+    .rate {
+        position: relative;
+        width: 22px;
+        height: 20px;
+        font-family: "rate" !important;
+        font-size: 20px;
+        color: #ddd;
+
+        &::before {
+            content: "\e646";
+        }
+
+        .rateLeft {
+            position: absolute;
+            top: -2px;
+            left: -1px;
+            z-index: 3;
+            overflow: hidden;
+            width: 11px;
+            height: 23px;
+            font-family: "rate_active" !important;
+            font-size: 23px;
+            color: orange;
+        }
+
+        .rateRight {
+            position: absolute;
+            top: -2px;
+            left: -1px;
+            z-index: 2;
+            overflow: hidden;
+            width: 100%;
+            height: 23px;
+            font-family: "rate_active" !important;
+            font-size: 23px;
+            color: orange;
+        }
+    }
+
+    .rateNumber {
+        margin-left: 4px;
+        font-size: 18px;
+        color: #6e7c84;
+    }
+}
+
+.rateLeft__active::before {
+    content: "\e61a";
+}
+
+.rateRight__active::before {
+    content: "\e61a";
+}

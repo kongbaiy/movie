@@ -1,0 +1,54 @@
+
+.container {
+    overflow: hidden;
+    padding: 0 $basePadding;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+    .regInfo {
+        margin-top: 36px;
+        .title {
+            padding-bottom: 24px;
+            font-size: 34px;
+            font-weight: bold;
+            color: #1c1e24;
+        }
+        .regLabel {
+            display: block;
+            padding-top: 16px;
+            font-size: 18px;
+            font-weight: 400;
+            color: #1c1e24;
+        }
+        .regInput {
+            box-sizing: border-box;
+            margin-top: 8px;
+            padding: 0 8px;
+            width: 100%;
+            height: 45px;
+            border: 1px solid #1c1e24;
+            border-radius: 4px;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -ms-border-radius: 4px;
+            -o-border-radius: 4px;
+            font-size: 20px;
+            color: #333;
+            &:focus {
+                box-shadow: 0 6px 10px 0 rgba($color: #000000, $alpha: 0.1);
+            }
+        }
+        .regSubmit {
+            margin-top: 40px;
+            width: 100%;
+            height: 45px;
+            background-color: #1c1e24;
+            border-radius: 4px;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -ms-border-radius: 4px;
+            -o-border-radius: 4px;
+            font-size: 20px;
+            color: #fff;
+        }
+    }
+}
